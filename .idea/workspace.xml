@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c768e57-d20a-4f91-9412-837387054eef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/IsPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/MaxArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linear_data_structure/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/MinSubArrayLen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +59,11 @@
     "Application.CharacterReplacement.executor": "Run",
     "Application.IsPalindrome.executor": "Run",
     "Application.IsValid.executor": "Run",
+    "Application.LengthOfLongestSubstring.executor": "Debug",
     "Application.Main.executor": "Run",
+    "Application.MinSubArrayLen.executor": "Debug",
     "Application.ReverseWords.executor": "Run",
-    "Application.ThreeSum.executor": "Run",
+    "Application.ThreeSum.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -89,20 +88,7 @@
       <recent name="com.task" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeSum">
-    <configuration name="CharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.code_20240304.CharacterReplacement" />
-      <module name="spring boot" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.code_20240304.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
     <configuration name="Code" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.Code" />
       <module name="spring boot" />
@@ -129,12 +115,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.Main" />
-      <module name="spring boot" />
+    <configuration name="LengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.code_20240404.LengthOfLongestSubstring" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.leetcode.code_20240404.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinSubArrayLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.code_20240404.MinSubArrayLen" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.code_20240404.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLongestSubstring" />
+        <item itemvalue="Application.MinSubArrayLen" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.IsPalindrome" />
         <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.CharacterReplacement" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -383,6 +382,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/ThreeSum.java</url>
           <line>26</line>
           <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/MinSubArrayLen.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/LengthOfLongestSubstring.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
