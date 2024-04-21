@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c768e57-d20a-4f91-9412-837387054eef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/MinSubArrayLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/MinWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/LengthOfLongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/LengthOfLongestSubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,7 @@
     "Application.LengthOfLongestSubstring.executor": "Debug",
     "Application.Main.executor": "Run",
     "Application.MinSubArrayLen.executor": "Debug",
+    "Application.MinWindow.executor": "Debug",
     "Application.ReverseWords.executor": "Run",
     "Application.ThreeSum.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -88,7 +89,7 @@
       <recent name="com.task" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubstring">
+  <component name="RunManager" selected="Application.MinWindow">
     <configuration name="Code" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.Code" />
       <module name="spring boot" />
@@ -141,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.code_20240404.ReverseWords" />
+    <configuration name="MinWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.code_20240404.MinWindow" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -169,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinWindow" />
         <item itemvalue="Application.LengthOfLongestSubstring" />
         <item itemvalue="Application.MinSubArrayLen" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.IsPalindrome" />
-        <item itemvalue="Application.ReverseWords" />
       </list>
     </recent_temporary>
   </component>
@@ -390,8 +391,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/LengthOfLongestSubstring.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/LengthOfLongestSubstring.java</url>
           <line>9</line>
-          <option name="timeStamp" value="86" />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/code_20240404/MinWindow.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
