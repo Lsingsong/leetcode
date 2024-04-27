@@ -1,5 +1,8 @@
 package com.leetcode.code_20240404;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class TwoSum {
     /**
      * 二分查找法
@@ -45,5 +48,21 @@ public class TwoSum {
            }
         }
         return new int[]{-1, -1};
+    }
+
+    public int[] twoSum2(int[] nums, int target) {
+        Map<Integer, Integer> hashtable = new HashMap<Integer, Integer>();
+        for (int i = 0; i < nums.length; ++i) {
+            if (hashtable.containsKey(target - nums[i])) {
+                return new int[]{hashtable.get(target - nums[i]), i};
+            }
+            hashtable.put(nums[i], i);
+        }
+        return new int[0];
+    }
+
+
+    public String simplifyPath(String path) {
+        return Path.of(path).normalize().toString();
     }
 }
