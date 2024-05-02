@@ -62,7 +62,5 @@ public class TwoSum {
     }
 
 
-    public String simplifyPath(String path) {
-        return Path.of(path).normalize().toString();
-    }
+
 }
